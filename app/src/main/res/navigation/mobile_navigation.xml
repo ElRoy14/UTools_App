@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.appsmoviles.utools_app.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_genero"
+        android:name="com.appsmoviles.utools_app.ui.genero.GeneroFragment"
+        android:label="Genero"
+        tools:layout="@layout/fragment_genero" />
+
+    <fragment
+        android:id="@+id/nav_edad"
+        android:name="com.appsmoviles.utools_app.ui.edad.EdadFragment"
+        android:label="Edad"
+        tools:layout="@layout/fragment_edad" />
+    <fragment
+        android:id="@+id/nav_universidades"
+        android:name="com.appsmoviles.utools_app.ui.universidades.UniversidadesFragment"
+        android:label="Universidades"
+        tools:layout="@layout/fragment_universidades" />
+    <fragment
+        android:id="@+id/nav_clima"
+        android:name="com.appsmoviles.utools_app.ui.clima.ClimaFragment"
+        android:label="Clima"
+        tools:layout="@layout/fragment_clima" />
+    <fragment
+        android:id="@+id/nav_wppage"
+        android:name="com.appsmoviles.utools_app.ui.wppage.WpPageFragment"
+        android:label="WordPress Page"
+        tools:layout="@layout/fragment_wp_page" />
+    <fragment
+        android:id="@+id/nav_acercade"
+        android:name="com.appsmoviles.utools_app.ui.acercade.AcercaDeFragment"
+        android:label="Acerca De"
+        tools:layout="@layout/fragment_acerca_de" />
+
+</navigation>
